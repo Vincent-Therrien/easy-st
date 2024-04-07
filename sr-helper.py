@@ -1,15 +1,15 @@
 """
     This script simplifies the use of the space ranger software tool
     that processes the raw data of 10X Visium experiments. Run the
-    command ``python3 sr-helper.py help` to view its usage.
+    command ``python3 sr-helper.py help`` to view its usage.
 
     The script can:
 
     - Download space ranger and reference genomes with
-      ``install-dependencies``
+      ``install-dependencies``.
     - Write Slurm scripts to download and process raw FASTQ files with
-      ``generate-scripts``
-    - Execute the Slurm scripts with ``run-scripts``
+      ``generate-scripts``.
+    - Execute the Slurm scripts with ``run-scripts``.
 
     Copyright information:
 
