@@ -117,7 +117,7 @@ def create_config(args) -> None:
     empty_config = {
         "metadata": {
             "File generation date": str(datetime.datetime.now()),
-            "Information": "Edit this file to add references to the 10X Visium data to process. Run `python3 sr-helper.py help create-config` to se how to edit it."  # nopep8
+            "Information": "Edit this file to add references to the 10X Visium data to process. Run `python3 sr-helper.py help create-config` to see how to edit it."  # nopep8
         },
         "pipeline name": "TEST_PIPELINE",
         "sratoolkit activation": "module load mugqic/sratoolkit/2.10.5",
